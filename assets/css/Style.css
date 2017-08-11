@@ -1,0 +1,16 @@
+﻿#header{
+    font-size:24px;
+}
+.headerIcons{
+    margin-left:15px;
+}
+#headShot{
+    height:250px;
+}
+.bannerText{
+   margin:0;
+   text-align:center;
+}
+#banner{
+    padding-top:100px;
+}
