@@ -20,3 +20,14 @@
 .projectText{
     text-align:center;
 }
+.projectImage{
+    width:450px;
+    margin-left:120PX;
+}
+.projectImageLeft {
+    width: 450px;
+    margin-right: 120PX;
+}
+.imgLink{
+    border:0;
+}
