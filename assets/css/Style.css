@@ -1,48 +1,68 @@
-﻿#header{
-    font-size:24px;
+﻿#header {
+    font-size: 24px;
 }
-.headerIcons{
-    margin-left:15px;
+
+.headerIcons {
+    margin-left: 15px;
 }
-#headShot{
-    height:250px;
+
+#headShot {
+    height: 250px;
 }
-.bannerText{
-   margin:0;
-   text-align:center;
+
+.bannerText {
+    margin: 0;
+    text-align: center;
 }
-#banner{
-    padding-top:100px;
+
+#banner {
+    padding-top: 100px;
 }
-.projectList{
-    text-align:left;
+
+.projectList {
+    text-align: left;
 }
-.projectText{
-    text-align:center;
+
+.projectText {
+    text-align: center;
 }
-.projectImage{
-    width:450px;
-    margin-left:120PX;
+
+.projectImage {
+    width: 450px;
+    margin-left: 120PX;
 }
+
 .projectImageLeft {
     width: 450px;
     margin-right: 120PX;
 }
-.imgLink{
-    border:0;
+
+.imgLink {
+    border: 0;
 }
+
 .image {
     width: 450px;
     transition: all .2s ease-in-out;
 }
-.image:hover {
-        transform: scale(2.1);
-        opacity:.5;
-        margin:auto;
-    }
+
+.imgClick {
+    transform: scale(5);
+    /*opacity:.5;*/
+    color: #96b1de;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: scale(2.5) translate( -50%, -50% );
+    text-align: center;
+    font-weight: bold;
+    line-height: 90%;
+}
+
 .major {
     text-align: center;
 }
+
 @media only screen and (max-width: 1026px) {
     .headerIcons {
         display: none;
