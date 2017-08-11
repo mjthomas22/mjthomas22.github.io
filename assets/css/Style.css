@@ -31,3 +31,12 @@
 .imgLink{
     border:0;
 }
+.image {
+    width: 450px;
+    transition: all .2s ease-in-out;
+}
+.image:hover {
+        transform: scale(2.1);
+        opacity:.5;
+        margin:auto;
+    }
