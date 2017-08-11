@@ -14,3 +14,9 @@
 #banner{
     padding-top:100px;
 }
+.projectList{
+    text-align:left;
+}
+.projectText{
+    text-align:center;
+}
