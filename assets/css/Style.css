@@ -45,21 +45,39 @@
     width: 450px;
     transition: all .2s ease-in-out;
 }
+.imageRight {
+    width: 450px;
+    transition: all .2s ease-in-out;
+  
+}
 
 .imgClick {
     /*opacity:.5;*/
-    position:center;
+    position: center;
     /*top: 50%;
     left: 65%;*/
     transform: scale(2.5) translate( -28%, -0% );
     /*height:800px;
     width:1200px !important;*/
     /*margin-top:450px;*/
-    margin-left:auto;
-    margin-right:auto;
-    overflow:visible !important;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
 }
 
+.imgClickRight {
+    /*opacity:.5;*/
+    position: center;
+    /*top: 50%;
+    left: 65%;*/
+    transform: scale(2.5) translate( 28%, -0% );
+    /*height:800px;
+    width:1200px !important;*/
+    /*margin-top:450px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible !important;
+}
 .major {
     text-align: center;
 }
@@ -71,4 +89,12 @@
 }
 .hide{
     display:none;
+}
+.bigImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.click {
+    font-size: 10px;
 }
