@@ -47,16 +47,17 @@
 }
 
 .imgClick {
-    transform: scale(5);
     /*opacity:.5;*/
-    color: #96b1de;
-    position: absolute;
-    top: 50%;
-    left: 65%;
-    transform: scale(2.5) translate( -50%, -50% );
-    text-align: center;
-    font-weight: bold;
-    line-height: 90%;
+    position:center;
+    /*top: 50%;
+    left: 65%;*/
+    transform: scale(2.5) translate( -28%, -0% );
+    /*height:800px;
+    width:1200px !important;*/
+    /*margin-top:450px;*/
+    margin-left:auto;
+    margin-right:auto;
+    overflow:visible !important;
 }
 
 .major {
@@ -67,4 +68,7 @@
     .headerIcons {
         display: none;
     }
+}
+.hide{
+    display:none;
 }
