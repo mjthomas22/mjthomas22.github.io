@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     var bankImg = "<img id=\"bigBankPicture\" class=\"bigImg img-responsive\" src=\"images/bankAccount.png\" />";
-    var reviewImg = "<img id=\"bigReviewPicture\" class=\"bigImg img-responsive\" src=\"images/Reviews.png\" />"; 
+    var reviewImg = "<img id=\"bigReviewPicture\" class=\"bigImg img-responsive\" src=\"images/month.jpg\" />"; 
     var wardrobeImg = "<img id=\"bigWardrobePicture\" class=\"bigImg img-responsive\" src=\"images/edmx.png\" />";
 
     $("#bankPicture").click(function () {
